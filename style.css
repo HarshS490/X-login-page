@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+body{
+    background-color: rgb(30, 32, 37);
+}
+.login-box{
+    background-color: black;
+    padding: 10px 5px;
+    
+    width: 500px;
+    margin: 100px auto;
+    
+    position: relative;
+    border-radius: 10px;
+    
+
+}
+.top{
+    display: flex;
+}
+.cross{
+  
+    padding:0px 5px;
+    
+    
+}
+.cross img{
+    width: 10px;
+    height: 10px;
+}
+.Xlogo{
+    width: 100%;
+    
+    text-align: center;                
+  
+}
+.Xlogo img{
+    width: 25px;
+    height: 25px;
+    margin-bottom: 20px;
+    
+    
+}
+.head{
+    color: white;
+    padding: 10px;
+}
+.head h2{
+    margin-left: 115px;
+}
+
+
+.login-box button{
+    width:55%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    background-color: white;
+    margin: 20px 115px;
+    border-radius: 40px;
+    background:white;
+    border:1px solid #999;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+    
+    
+}
+#googlelogo img{
+  
+    width: 18px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#applelogo svg{
+   margin-left: 5px;
+}
+
+#applelogo p{
+    padding-left: 5px;
+    font-weight: 700;
+}
+
+
+.divide hr{
+    
+    border: 0;
+    height: 1px;
+    width: 55%;
+    background-color: rgb(51, 54, 57);
+    
+    margin-left: 115px;
+    
+}
+.divide span{
+    
+    display: block;
+    width: 25px;
+    margin: auto 47%;
+    
+    color: white;
+    background-color: black;
+    font-size: 14px;
+    margin-top: -9px;
+    margin-left: 250px;
+    text-align: center;
+}
+
+.form form input{
+    width: 55%;
+    box-sizing: border-box;
+    margin: 10px 115px;
+    color: white;
+    border: 1px solid rgb(51, 54, 57);
+    background-color: black;
+    outline: 0;
+    padding: 15px 10px;
+    border-radius: 5px;
+    
+}
+::placeholder{
+    font-weight: 500;
+}
+
+
+.form form button span{
+    display: block;
+    /* margin: auto 70px; */
+    margin-left: 55px;
+    font-weight: 700;
+
+}
+
+.form .forgotpass{
+    
+    margin-left: 115px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+.form .forgotpass span{
+    display: block;
+    padding-left: 25px;
+}
+
+
+
+.form p{
+    color: grey;
+    font-weight: 500;
+    margin-left: 115px;
+    font-size: 14px;
+    padding:25px 0px;
+}
+
+.form p a{
+    text-decoration: none;
+    margin-left: 4px;
+    color: rgb(65, 117, 221);
+}
